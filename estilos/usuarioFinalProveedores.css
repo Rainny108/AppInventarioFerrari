@@ -1,0 +1,203 @@
+body{
+  background: linear-gradient(to bottom, black 79%, yellow);
+  font-family: 'MyWebFont';
+  src: url('WebFont.eot');
+  src: url('WebFont.eot?#iefix') format('embedded-opentype'), url('WebFont.woff') format('woff'), url('WebFont.ttf') format('truetype'), url('WebFont.svg#webfont') format('svg');
+}
+
+/* body {
+  background: linear-gradient(to bottom, black 50%, yellow);
+  font-family: 'MyWebFont';
+  src: url('WebFont.eot');
+  src: url('WebFont.eot?#iefix') format('embedded-opentype'), url('WebFont.woff') format('woff'), url('WebFont.ttf') format('truetype'), url('WebFont.svg#webfont') format('svg');
+} */
+
+header img {
+  height: 7.5rem;
+  width: 6.25rem;
+}
+
+header img:hover {
+  transform: scale(1.2);
+}
+
+
+header h1 {
+  color: rgba(248, 245, 245, 0.884);
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.links{
+  padding: 0;
+  padding-right: 15px;
+}
+.aheder {
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 15px;
+  margin-right: 5px;
+  background: linear-gradient(180deg, #f01b14 0%, #caf312 100%);
+
+}
+
+.btn-grad {
+  background-image: linear-gradient(to right, #FF8008 0%, #FFC837 51%, rgb(172, 172, 20) 100%);
+  /* background-image: linear-gradient(to right, #FF8008 0%, #FFC837  51%, #FF8008  100%); */
+  margin: 5px;
+  padding: 3px 15px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: black;
+  font-size: 13px;
+  border-radius: 7px;
+
+}
+
+
+
+.btn-grad:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+hr {
+
+  color: red;
+  width: 100%;
+  border: solid red 2px;
+}
+
+main {
+  color: rgba(248, 245, 245, 0.884);
+  height: auto;
+  width: 90%;
+  margin: 0 5%;
+  display: flex;
+}
+/*-----------esto lo agregue nosotros--------------*/
+table {
+  background-color: transparent;
+  color: rgba(175, 3, 3, 0.884);
+  text-align: center;
+  border-radius: 10px;
+}
+
+label { 
+  color: rgba(248, 245, 245, 0.884); 
+}
+
+.centrar {
+  margin-top: 25px;
+}
+
+.btnmargen {
+  margin-bottom: 33px;
+  width: 100%;
+}
+
+.alinear {
+  margin-left: 26px;
+}
+
+.btnactualizar {
+  margin-left: 39.00%;
+  margin-top: 20px;
+}
+
+.control {
+  width: 100%;
+  background-color: transparent;
+  padding: 4px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  border: 1px solid red;
+  font-size: 18px;
+  color: white;
+}
+
+.IdPrd {
+  width: 50%;
+}
+
+.alinear1 {
+  margin-left: 50px;
+
+}
+
+.alinear2 {
+  margin-left: 26px;
+}
+
+.sizemain{
+  padding-top: 60px;
+  height: 600px;
+  width: auto;
+}
+
+thead {
+  color: rgb(245, 240, 240);
+  background-color: rgb(139, 7, 7);
+}
+
+tbody {
+  color: rgba(248, 245, 245, 0.884) 
+}
+
+tbody :hover {
+  color: rgb(255, 238, 0);
+  
+}
+/*-----------hasta aqui-------------*/
+
+
+.principal {
+  padding: 5% 0;
+}
+
+.h1main {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.h4main {
+  text-transform: capitalize;
+}
+
+.pmain {
+  font-size: 18px;
+  margin-top: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.margin {
+  margin-top: 2.25rem;
+}
+
+
+.hr2{
+  margin-top: 80px;
+  
+}
+
+footer{
+  color:black;
+  font-size: 20px;
+  display: flex;
+  justify-content: end;
+}
+
+footer span{
+  padding-bottom: 20px;
+  margin-right: 20px;
+}
+.spanDerechos{
+  margin-left: 40px;
+  color: #8f918b;
+}
