@@ -1,0 +1,16 @@
+.botonesUsuario{
+    display: flex;
+}
+
+.btnactualizar {
+    margin-left: 9.00%;
+    margin-top: 20px;
+  }
+
+.btn-crud {
+    width: 170px;
+}  
+
+.espacios {
+   margin-top: 50px; 
+}
