@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="/estilos/usuariofinal.css">
     <link rel="stylesheet" href="/estilos/usuariofinal-embedded.css">
     <link rel="stylesheet" href="/estilos/animation.css">
-    
-    
+
+
     <link href="../estilos/usuarioFinalProveedores.css" rel="stylesheet" type="text/css">
     <link href="../estilos/administradorProductos.css" rel="stylesheet" type="text/css">
     <title>Productos Administrador</title>
@@ -33,19 +33,22 @@
                 <div class="col-sm-6 col-md-5 col-lg-5 links">
                     <ul class="nav justify-content-end">
                         <li class="nav-item">
-                            <a class="btn btn-grad" href="administradorHome.html"><i class="icon-briefcase"></i> Home</a>
+                            <a class="btn btn-grad" href="administradorHome.html"><i class="icon-briefcase"></i>
+                                Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="btn btn-grad" href="administradorUsuarios.html"><i class="icon-cab"></i> Usuarios</a>
+                            <a class="btn btn-grad" href="administradorUsuarios.html"><i class="icon-cab"></i>
+                                Usuarios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="btn btn-grad" href="administradorProveedores.html"><i class="icon-cab"></i> Proveedores</a>
+                            <a class="btn btn-grad" href="administradorProveedores.html"><i class="icon-cab"></i>
+                                Proveedores</a>
                         </li>
-                        
+
                         <li class="nav-item">
                             <a class="btn  btn-grad" href="index.html"><i class="icon-logout"></i> Cerrar Sesión</a>
                         </li>
-                        
+
 
                     </ul>
                 </div>
@@ -55,118 +58,122 @@
         <!-- main -->
         <!-- ========================================================================================= -->
         <main>
-             <div class="container-fluid  sizemain">                
+            <div class="container-fluid  sizemain">
 
                 <div class="row">
-                     
+
                     <div class="col-lg-5">
                         <h1 class="h1main">Productos</h1>
-                        <div class="row"> 
-                        <div class="col-lg-6">
-                            <label>ID</label>
-                            <input class= "control" type="text" name="id" id="idProducto" placeholder="Ingrese ID"> 
-                            <label>Nombre</label>
-                            <input class= "control" type="text" name="nombre" id="nombreProducto" placeholder="Ingrese nombre del producto">
-                            <label>Cantidad mínima</label>
-                            <input class= "control" type="text" name="cantidadMinima" id="cantidadMinima" placeholder="Ingrese cantidad mínima">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <label>ID</label>
+                                <input class="control" type="text" name="id" id="idProducto" placeholder="Ingrese ID">
+                                <label>Nombre</label>
+                                <input class="control" type="text" name="nombre" id="nombreProducto"
+                                    placeholder="Ingrese nombre del producto">
+                                <label>Cantidad mínima</label>
+                                <input class="control" type="text" name="cantidadMinima" id="cantidadMinima"
+                                    placeholder="Ingrese cantidad mínima">
 
-                        </div>      
-                        <div class="col-lg-6 centrar row justify-content-center">
-                            <input class="btn btn-grad btnmargen alinear" type="button" value="Buscar producto">
-                            <br>
-                            <label>Descripción</label>
-                            <input class= "control alinear" type="text" name="descripcion" id="descripcionProducto" placeholder="Ingrese la descripción">
-                            <label>Cantidad disponible</label>
-                            <input class= "control alinear" type="text" name="cantidadDisponible" id="cantidadDisponible" placeholder="Ingrese cantidad disponible en bodega">
-                        </div>                                                
-                        </div>    
-                                             
-                            <div class="btnactualizar">
-                                <input class="btn btn-grad " type="button" value="Agregar">
-                                <input class="btn btn-grad " type="button" value="Actualizar">
-                                <input class="btn btn-grad " type="button" value="Eliminar">
                             </div>
-                        </div>                   
+                            <div class="col-lg-6 centrar row justify-content-center">
+                                <input class="btn btn-grad btnmargen alinear" type="button" value="Buscar producto">
+                                <br>
+                                <label>Descripción</label>
+                                <input class="control alinear" type="text" name="descripcion" id="descripcionProducto"
+                                    placeholder="Ingrese la descripción">
+                                <label>Cantidad disponible</label>
+                                <input class="control alinear" type="text" name="cantidadDisponible"
+                                    id="cantidadDisponible" placeholder="Ingrese cantidad disponible en bodega">
+                            </div>
+                        </div>
+
+                        <div class="d-flex justify-content-center mt-3">
+                            <input class="btn btn-grad sizeBoton" type="button" value="Actualizar">
+                            <input class="btn btn-grad sizeBoton" type="button" value="Agregar">
+                            <input class="btn btn-grad sizeBoton" type="button" value="Eliminar">
+                        </div>
+                    </div>
 
                     <div class="col-lg-7">
 
-                        <div class= "container">
+                        <div class="container">
                             <div class="table-responsive alinear2">
                                 <table class="table  table-sm ">
-                                    <thead> 
+                                    <thead>
                                         <th>ID </th>
                                         <th>NOMBRE</th>
                                         <th>DESCRIPCIÓN</th>
                                         <th>CANTIDAD MÍNIMA</th>
                                         <th>CANTIDAD DISPONIBLE</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>1234</td>
-                                        <td>llantas</td>
-                                        <td>llantas Michelin</td>
-                                        <td>20</td>
-                                        <td>60</td>
-                                    </tr>
-                                    <tr>
-                                        <td>-</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                    </tr>
-                                    <tr>
-                                        <td>-</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                    </tr>
-                                    <tr>
-                                        <td>-</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                    </tr>
-                                    <tr>
-                                        <td>-</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                    </tr>
-                                    <tr>
-                                        <td>-</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                    </tr>
-                                    <tr>
-                                        <td>-</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                    </tr>
-                                    <tr>
-                                        <td>-</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                    </tr>
-                                </tbody>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1234</td>
+                                            <td>llantas</td>
+                                            <td>llantas Michelin</td>
+                                            <td>20</td>
+                                            <td>60</td>
+                                        </tr>
+                                        <tr>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                    </tbody>
                                 </table>
-                              </div>
+                            </div>
                         </div>
-                        
-                    
+
+
+                    </div>
                 </div>
-                </div>
-                
+
             </div>
         </main>
         <hr class="hr2">
@@ -175,7 +182,7 @@
         <!-- =================================================================================== -->
 
         <footer>
-            
+
             <span><i class="icon-mobile"></i><b>Celular: 3654745362</b> </span>
             <span><i class="icon-mail-alt"></i><b>Correo: pinventario@inter.ferrari.com</b> </span>
             <span class="spanDerechos">&copy;Todos los derechos recervados 2022&copy;</span>

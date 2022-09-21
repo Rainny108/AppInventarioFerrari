@@ -1,16 +1,38 @@
-.botonesUsuario{
+.botonesUsuario {
     display: flex;
 }
 
 .btnactualizar {
     margin-left: 9.00%;
     margin-top: 20px;
-  }
+}
 
 .btn-crud {
     width: 170px;
-}  
+}
+
+
+/* estilos  nuevos por arturo */
 
 .espacios {
-   margin-top: 50px; 
+    margin-top: 20px;
+}
+
+
+.btn-grad {
+    margin-left: 5px;
+    padding: 3px 5px;
+    font-size: 14px;
+
+}
+
+.alinear {
+    margin-left: 26px;
+
+}
+
+
+.sizeBoton {
+    padding: 3px 10px;
+    width: 40%;
 }

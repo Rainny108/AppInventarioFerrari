@@ -72,6 +72,7 @@ hr {
   color: red;
   width: 100%;
   border: solid red 2px;
+  margin: 0;
 }
 
 main {
@@ -136,8 +137,8 @@ label {
 }
 
 .sizemain{
-  padding-top: 60px;
-  height: 600px;
+  padding-top: 20px;
+  height: 410px;
   width: auto;
 }
 

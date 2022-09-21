@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="/estilos/usuariofinal.css">
     <link rel="stylesheet" href="/estilos/usuariofinal-embedded.css">
     <link rel="stylesheet" href="/estilos/animation.css">
-    
-    
+
+
     <link href="../estilos/usuarioFinalProveedores.css" rel="stylesheet" type="text/css">
-    <link href="../estilos/administradorUsuariosF.css" rel="stylesheet" type="text/css">
+
     <link href="../estilos/administradorProveedor.css" rel="stylesheet" type="text/css">
     <title>Superadministrador proveedores</title>
 </head>
@@ -34,18 +34,21 @@
                 <div class="col-sm-6 col-md-5 col-lg-5 links">
                     <ul class="nav justify-content-end">
                         <li class="nav-item">
-                            <a class="btn btn-grad" href="superadministradorHome.html"><i class="icon-briefcase"></i> Home</a>
+                            <a class="btn btn-grad" href="superadministradorHome.html"><i class="icon-briefcase"></i>
+                                Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="btn btn-grad" href="superadministradorUsuarios.html"><i class="icon-cab"></i> Usuarios</a>
+                            <a class="btn btn-grad" href="superadministradorUsuarios.html"><i class="icon-cab"></i>
+                                Usuarios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="btn btn-grad" href="superadministradorProductos.html"><i class="icon-cab"></i> Productos</a>
+                            <a class="btn btn-grad" href="superadministradorProductos.html"><i class="icon-cab"></i>
+                                Productos</a>
                         </li>
                         <li class="nav-item">
                             <a class="btn  btn-grad" href="index.html"><i class="icon-logout"></i> Cerrar Sesión</a>
                         </li>
-                        
+
 
                     </ul>
                 </div>
@@ -55,136 +58,141 @@
         <!-- main -->
         <!-- ========================================================================================= -->
         <main>
-          <div class="container-fluid  sizemain">                
+            <div class="container-fluid  sizemain">
 
-             <div class="row">
-                  
-                 <div class="col-lg-5">
-                     <h1 class="h1main">Proveedores</h1>
-                     <div class="row"> 
-                     <div class="col-lg-6">
-                         <label>ID/NIT</label>
-                         <input class= "control" type="text" name="id" id="id" placeholder="Ingrese NIT/ID"> 
-                         <label>Nombre</label>
-                         <input class= "control" type="text" name="nombre" id="nombre" placeholder="Ingrese nombre">
-                         <label>Correo</label>
-                         <input class= "control" type="email" name="Correo" id="correo" placeholder="Ingrese correo electronico">
+                <div class="row">
 
-                     </div>      
-                     <div class="col-lg-6 centrar row justify-content-center">
-                         <input class="btn btn-grad btnmargen alinear" type="button" value="Buscar por ID/NIT">
-                         <br>
-                         <label>Teléfono</label>
-                         <input class= "control alinear" type="text" name="telefono" id="telefono" placeholder="Ingrese telefono">
-                         <label>Producto</label>
-                         <input class= "control alinear" type="text" name="producto" id="producto" placeholder="Ingrese producto">
-                     </div>                                                
-                     </div>    
-                                          
-                         <div class="btnactualizar">
-                             <input class="btn btn-grad " type="button" value="Agregar">
-                             <input class="btn btn-grad " type="button" value="Actualizar">
-                             <input class="btn btn-grad " type="button" value="Eliminar">
-                         </div>
-                     </div>                   
+                    <div class="col-lg-5">
+                        <h1 class="h1main">Proveedores</h1>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <label>ID/NIT</label>
+                                <input class="control" type="text" name="id" id="id" placeholder="Ingrese NIT/ID">
+                                <label>Nombre</label>
+                                <input class="control" type="text" name="nombre" id="nombre"
+                                    placeholder="Ingrese nombre">
+                                <label>Correo</label>
+                                <input class="control" type="email" name="Correo" id="correo"
+                                    placeholder="Ingrese correo electronico">
 
-                 <div class="col-lg-7">
+                            </div>
+                            <div class="col-lg-6 centrar row justify-content-center">
+                                <input class="btn btn-grad btnmargen alinear" type="button" value="Buscar por ID/NIT">
+                                <br>
+                                <label>Teléfono</label>
+                                <input class="control alinear" type="text" name="telefono" id="telefono"
+                                    placeholder="Ingrese telefono">
+                                <label>Producto</label>
+                                <input class="control alinear" type="text" name="producto" id="producto"
+                                    placeholder="Ingrese producto">
+                            </div>
+                        </div>
 
-                     <div class="row">
-                         <label class="alinear1"> Producto </label>
-                     <div class="col-lg-6"> 
-                         <input class="control alinear1" type="text" name="producto" id="producto" placeholder="Ingrese producto">
-                     </div>
-                     <div class="col-lg-6"> 
-                         <input class="btn btn-grad alinear1" type="button" value="Buscar por producto">
-                     </div>
-                     </div>
-                     
-                     <div class= "container">
-                         <div class="table-responsive alinear2">
-                             <table class="table  table-sm ">
-                                 <thead> 
-                                     <th>ID / NIT</th>
-                                     <th>NOMBRE</th>
-                                     <th>TELEFONO</th>
-                                     <th>CORREO</th>
-                                     <th>PRODUCTO</th>
-                                 </tr>
-                             </thead>
-                             <tbody>
-                                 <tr>
-                                     <td>1234</td>
-                                     <td>pacho</td>
-                                     <td>1254561</td>
-                                     <td>dhjsjx@hhd.com</td>
-                                     <td>ventana</td>
-                                 </tr>
-                                 <tr>
-                                     <td>-</td>
-                                     <td>-</td>
-                                     <td>-</td>
-                                     <td>-</td>
-                                     <td>-</td>
-                                 </tr>
-                                 <tr>
-                                     <td>-</td>
-                                     <td>-</td>
-                                     <td>-</td>
-                                     <td>-</td>
-                                     <td>-</td>
-                                 </tr>
-                                 <tr>
-                                     <td>-</td>
-                                     <td>-</td>
-                                     <td>-</td>
-                                     <td>-</td>
-                                     <td>-</td>
-                                 </tr>
-                                 <tr>
-                                     <td>-</td>
-                                     <td>-</td>
-                                     <td>-</td>
-                                     <td>-</td>
-                                     <td>-</td>
-                                 </tr>
-                                 <tr>
-                                     <td>-</td>
-                                     <td>-</td>
-                                     <td>-</td>
-                                     <td>-</td>
-                                     <td>-</td>
-                                 </tr>
-                                 <tr>
-                                     <td>-</td>
-                                     <td>-</td>
-                                     <td>-</td>
-                                     <td>-</td>
-                                     <td>-</td>
-                                 </tr>
-                                 <tr>
-                                     <td>-</td>
-                                     <td>-</td>
-                                     <td>-</td>
-                                     <td>-</td>
-                                     <td>-</td>
-                                 </tr>
-                             </tbody>
-                             </table>
-                           </div>
-                     </div>
-                                      
-             </div>
-             </div>
-             
-         </div>
-     </main>
+                        <div class="d-flex justify-content-center mt-3">
+                            <input class="btn btn-grad sizeBoton" type="button" value="Actualizar">
+                            <input class="btn btn-grad sizeBoton" type="button" value="Agregar">
+                            <input class="btn btn-grad sizeBoton" type="button" value="Eliminar">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7">
+
+                        <div class="row">
+                            <label class="alinear1"> Producto </label>
+                            <div class="col-lg-6">
+                                <input class="control alinear1" type="text" name="producto" id="producto"
+                                    placeholder="Ingrese producto">
+                            </div>
+                            <div class="col-lg-6">
+                                <input class="btn btn-grad ms-5" type="button" value="Buscar por producto">
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <div class="table-responsive alinear2">
+                                <table class="table  table-sm ">
+                                    <thead>
+                                        <th>ID / NIT</th>
+                                        <th>NOMBRE</th>
+                                        <th>TELEFONO</th>
+                                        <th>CORREO</th>
+                                        <th>PRODUCTO</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1234</td>
+                                            <td>pacho</td>
+                                            <td>1254561</td>
+                                            <td>dhjsjx@hhd.com</td>
+                                            <td>ventana</td>
+                                        </tr>
+                                        <tr>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </main>
         <hr class="hr2">
 
         <!-- footer -->
         <!-- =================================================================================== -->
 
         <footer>
-            
+
             <span><i class="icon-mobile"></i><b>Celular: 3654745362</b> </span>
             <span><i class="icon-mail-alt"></i><b>Correo: pinventario@inter.ferrari.com</b> </span>
             <span class="spanDerechos">&copy;Todos los derechos recervados 2022&copy;</span>
