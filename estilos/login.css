@@ -20,27 +20,39 @@ video{
 
 
 
-header h1 {
-    color:black;
-    font-size: 70px;
-    text-transform: uppercase;
-}
+html{
+    font-size: 16px;
 
-.logo{
-    height: 7.5rem;
-    width: 6.25rem;
-}
-.logo:hover{
-    transform: scale(1.2);
+    
     
 }
-.alinear{
+
+header{
     display: flex;
-    flex-direction: row;
+    justify-content: space-around;
+
+    
+    
+}
+header .logo{
+    display: flex;
     align-items: center;
+    width: 100%;
+}
+.logo img{
+    height: 7.5rem;
+    width: 6.25rem;
+
+    
+}
+.logo img:hover{
+    transform: scale(1.2);    
+}
+.logo h1{
+    font-size: 4rem;
+    color: #fff;
 }
 
-/* estlios de main */
 
 .formulario{
 
@@ -129,4 +141,56 @@ header h1 {
 .formulario select option{
     background: rgba(0,0, 0 , 0.90);
     
+}
+
+
+
+@media screen and (max-width: 846px ) {
+    .logo h1{
+        font-size: 3.5rem;
+    }
+    .formulario{
+        left: 37%;
+    }
+}
+@media screen and (max-width: 756px ) {
+    .logo h1{
+        font-size: 3rem;
+    }
+    .formulario{
+        left: 35%;
+    }
+}
+@media screen and (max-width: 666px ) {
+    .logo h1{
+        font-size: 2.5rem;
+    }
+    .formulario{
+        left: 33%;
+    }
+
+}
+@media screen and (max-width: 634px ) {
+    .logo h1{
+        font-size: 2.1rem;
+    }
+    .formulario{
+        left: 32%;
+    }
+}
+@media screen and (max-width: 505px ) {
+    .logo h1{
+        font-size: 1.8rem;
+    }
+    .formulario{
+        left: 30%;
+    }
+}
+@media screen and (max-width: 451px ) {
+    .logo h1{
+        font-size: 1.4rem;
+    }
+    .formulario{
+        left: 25%;
+    }
 }
